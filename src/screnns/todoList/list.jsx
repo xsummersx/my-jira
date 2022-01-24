@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-export const List = () => {
+export const List = ({ ProList, Users }) => {
   return (
     <Fragment>
       <h2>以下是表格</h2>
@@ -12,7 +12,18 @@ export const List = () => {
             <td>负责人</td>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+          {ProList.map((item, index) => {
+            return (
+              <tr key={index}>
+                <td>{index + 1}</td>
+                <td>{item.typeName}</td>
+                <td>{item.organization}</td>
+                <td>{Users.find((us) => us.ID === item.userID)?.userName || "未知"}</td>
+              </tr>
+            );
+          })}
+        </tbody>
       </table>
     </Fragment>
   );
