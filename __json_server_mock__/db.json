@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "ID": 1,
+      "userName": "刘贵"
+    },
+    {
+      "ID": 2,
+      "userName": "董鑫"
+    },
+    {
+      "ID": 3,
+      "userName": "赵伟"
+    },
+    {
+      "ID": 4,
+      "userName": "周鹏"
+    },
+    {
+      "ID": 1,
+      "userName": "柳欢"
+    }
+  ],
+  "proList": [
+    {
+      "ID": 1,
+      "typeName": "前台经理",
+      "organization": "服务组",
+      "userID": 1,
+      "time": 1643013382291
+    },
+    {
+      "ID": 2,
+      "typeName": "大堂保安",
+      "organization": "安保组",
+      "userID": 1,
+      "time": 1643013382291
+    },
+    {
+      "ID": 3,
+      "typeName": "后厨人员",
+      "organization": "餐饮部",
+      "userID": 2,
+      "time": 1643013382291
+    },
+    {
+      "ID": 4,
+      "typeName": "客房经理",
+      "organization": "服务部",
+      "userID": 2,
+      "time": 1643013382291
+    },
+    {
+      "ID": 5,
+      "typeName": "排版员",
+      "organization": "管理组",
+      "userID": 3,
+      "time": 1643013382291
+    }
+  ]
+}
